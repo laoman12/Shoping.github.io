@@ -1,0 +1,260 @@
+.main {
+	width: 980px;
+	height: 455px;
+
+	margin-left: 220px;
+	margin-top: 10px;
+}
+
+.focus {
+	float: left;
+	width: 721px;
+	height: 455px;
+	background-color: purple;
+	
+}
+.focus ul{
+	width: 400%;
+}
+.focus ul li{
+	float: left;
+}
+.arrow-l{
+	position:absolute;
+	
+	margin-top:200px;
+	
+	width: 24px;
+	height: 40px;
+	background: rgba(0, 0, 0,.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: icomoon;
+	font-size: 18px;
+}
+.arrow-r{
+	position:absolute;
+	
+	margin-top:200px;
+	margin-left: 55%;
+	width: 24px;
+	height: 40px;
+	background: rgba(0, 0, 0,.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: icomoon;
+	font-size: 18px;
+}
+
+.newsflash {
+	float: right;
+	width: 250px;
+	height: 455px;
+
+}
+
+.news {
+	height: 165px;
+	border: 1px solid #e4e4e4;
+	/* background-color: pink; */
+}
+
+.news-hd {
+	height: 33px;
+	line-height: 33px;
+	border-bottom: 1px dotted #e4e4e4;
+	padding: 0 15px;
+}
+
+.news-hd h5 {
+	float: left;
+	font-size: 14px;
+
+}
+
+.news-hd .more {
+	float: right;
+}
+
+.bargain {
+	margin-top: 4px;
+}
+
+.news-bd ul li {
+	height: 24px;
+	line-height: 24px;
+}
+
+.news-bd {
+	padding: 5px 15px 0;
+}
+
+.lifesevice {
+	overflow: hidden;
+	height: 209px;
+	border: 1px solid #e4e4e4;
+	border-top: 0;
+}
+
+.lifesevice ul li {
+	float: left;
+	width: 63px;
+	height: 71px;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+}
+
+.lifesevice ul {
+	width: 280px;
+}
+
+.lifesevice ul li i {
+	display: inline-block;
+	width: 24px;
+	height: 28px;
+
+	margin-top: 12px;
+}
+
+.recom {
+	height: 180px;
+	background-color: #ebebeb;
+	margin-top: 12px;
+}
+
+.recom_hd {
+	float: left;
+	height: 180px;
+	width: 205px;
+	background-color: #5c5251;
+}
+
+.recom_hd {
+	float: left;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+.recom_bd ul li {
+	float: left;
+}
+
+.recom ul li:nth-child(-n+3)::after {
+	content: '';
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	width: 1px;
+	height: 180px;
+	background-color: #ddd;
+}
+
+.Guess {
+	margin-top: 50px;
+	height: 230px;
+	border: 1px solid peachpuff;
+
+}
+
+.h4 {
+	
+margin-top: -30px;
+	
+}
+
+.h5 {
+	float: right;
+	margin-top: 22px;
+	margin-right: 28px;
+}
+
+.Guess_1 ul li {
+	float: left;
+}
+
+.diva {
+	float: left;
+	width: 200px;
+	height: 230px;
+   
+}
+
+.j1 {
+	text-align: center;
+	padding-top: -50px;
+}
+.Interesting{
+	margin-top: 50px;
+	height: 400px;
+	border: 1px solid #E1E1E1;
+}
+
+.In1{
+margin-top: -30px;
+
+
+
+}
+.Interesting ul li{
+	float: left;
+	margin-top: 30px;
+   margin-left: -52px;
+}
+.ppp{
+	float: left;
+	margin-top: 110px;
+	margin-left: -130px;
+	   
+    font-size: 12px;
+	color:black;
+    /* font-family:"微软雅黑";
+	font-weight: bold;
+	font-weight: 50px; */
+	
+	}
+
+
+/* 家用电器模块 */
+.box_hd{
+	height: 30px;
+	border-bottom: 2px solid red;
+	
+}
+.box_hd h3{
+	float: left;
+	font-size: 18px;
+	color: red;
+	font-weight: 400px;
+}
+.tab_list{
+	float:  right;
+	line-height: 30px;
+	
+}
+.tab_list ul li{
+	float: left;
+	
+}
+.tab_list ul li a{
+	
+	margin: 0px 15px;
+}
+.a1{
+	color: #D81E06;
+}
+.floor .w{
+	margin-top: 30px ;
+}
+.box_bd{
+	height: 361px;
+	background-color: pink;
+}
+.tab_list_item div{
+	float: left;;
+}
